@@ -15,6 +15,9 @@ public class Main {
         curso2.setDescricao("Estudo de POO em JavaScript");
         curso2.setCargaHoraria(12);
 
+        Conteudo conteudo = new Curso();
+        Conteudo conteudo1 = new Mentoria();
+
         System.out.println(curso1);
         System.out.println(curso2);
 
